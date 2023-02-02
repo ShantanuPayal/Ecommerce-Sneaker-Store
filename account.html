@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <header>
+            <img src="websitelogo.png" class="logo" >
+            <nav>
+              <a href="index.html">Home</a>
+              <a href="journey.html">The Journey</a>
+              <a href="E:/My Project/team.html">Team</a>
+              <a href="store.html">Store</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+            <div class="profile">
+              <img src="profile-icon.png">
+              <a href="account.html">My Account</a>
+            </div>
+          </header>
+    </head>
+    <body>
+<!------------------------------ account-page details------------------------------>
+
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login</span>
+                                <span onclick="register()">Register</span>
+                                <hr id="Indicator">
+                            </div>
+                            <form id="LoginForm">
+                                <input type="text" placeholder="username">
+                                <input type="password" placeholder="password">
+                                <button type="submit" class="btn">Login</button>
+                                <a href="">Forgot password</a>
+                            </form>
+                            
+                            <form id="RegForm">
+                                <input type="text" placeholder="username">
+                                <input type="email" placeholder="email">
+                                <input type="password" placeholder="password">
+                                <button type="submit" class="btn">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+        
+       
+       
+            
+            
+      
+  
+        
+        
+        <!-----------------------------------js for toggle menu-------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+        
+                <!-----------------------------------js for toggle form-------------------------------------->
+        <script>
+            var LoginForm=document.getElementById("LoginForm");
+            var RegForm=document.getElementById("RegForm");
+            var Indicator=document.getElementById("Indicator");
+            
+            function register(){
+                RegForm.style.transform="translateX(0px)";
+                LoginForm.style.transform="translateX(0px)";
+                Indicator.style.transform="translateX(100px)"
+            }
+            function login(){
+                RegForm.style.transform="translateX(300px)";
+                LoginForm.style.transform="translateX(300px)";
+                Indicator.style.transform="translateX(0px)";
+            }
+        </script>
+
+    </body>
+</html>

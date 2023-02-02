@@ -1,0 +1,427 @@
+body.index{
+    
+  background-image: url("E:\My Project\home.jpg");
+  background-size: cover;
+  background-position: center;
+  }
+ .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  } 
+
+  .home-container {
+    text-align: center;
+    color: black;
+    background-image: url("E:\My Project\home.jpg");
+  background-size: cover;
+  background-position: center;
+
+  }
+  
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: lightgray;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 85%;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .big-image {
+    width: 00%;
+    height: 500px;
+    
+    object-fit: cover;
+    object-position: center;
+  }
+  /* Other CSS styles */
+
+
+  body.journey-page {
+    background-image: url(grasspic.jpg);
+        padding: 50px;
+  }
+  
+  .journey-page .journey-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+  }
+  
+  .journey-page .journey-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: transparent;
+  }
+  
+  .journey-page .text-snippets {
+    padding: 50px;
+    font-size: small;
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin-top: 300px;
+     /* adjust this value as needed to position it below the grass pic */
+  }  
+  /* team .html*/
+
+  .team-header {
+    text-align: center;
+    margin-top: 115px;
+  }
+  .team-members 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 35px;
+    align-items: center;
+  }
+  
+  .member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 300px;
+    margin: 08px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px gray;
+    border-radius: 10px;
+    
+  }
+  
+  .member-card img {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+    object-position: center;
+  }
+
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ 
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: gray;
+
+  }
+  .social-icons a img {
+    width: 25px;
+    height: 25px;
+    }
+  
+  .social-icons i {
+    cursor: pointer;
+  }
+  
+  .team-footer{
+    text-align: center;
+  
+  }
+
+
+  /* Store page */
+.store-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 50px auto;
+ 
+
+  }
+  
+  .filter-container, .shoes-container, .cart-container {
+    width: 33.33%;
+    height: 40%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd
+
+  }
+  .filter-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 30%;
+  margin: 08px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px gray;
+  border-radius: 10px;
+  }
+  
+  .filter-card h3 {
+  margin-top: 10px;
+  font-weight: bold;
+  
+  }
+  
+  .checkbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+ 
+  }
+  
+  .checkbox {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  }
+  
+  .checkbox label {
+  font-size: 14px;
+  margin-left: 15px;
+margin-top: 10px;
+  }
+
+  /*Shoes */
+/*Shoes */
+.shoes-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 20%;
+  
+}
+.product-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  width: calc(31% - 20px);
+  height: 400px;
+  margin: 02px 1px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-card .price {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.cart-container
+
+/*contact-page*/
+
+.contact-page main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 1px solid #e6e6e6;
+  width: 60%;
+  margin: 30px auto;
+  padding-top: 05px;
+  height: fit-content;
+  
+}
+
+
+
+.contact-container h1 {
+  margin-bottom: 15x;
+}
+
+.contact-container h2 {
+  margin-bottom: 10px;
+}
+
+
+.stay-in-touch {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .social-container {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .social-container a {
+  margin-left: 20px;
+  }
+    
+
+
+        /*------------------------------ account-page ------------------------------*/
+  .account-page{
+    padding: 50px 0;
+    background: white;
+}
+.form-container{
+    background: #fff;
+    width:300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display:inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn{
+    width: 100%;
+    border:none;
+    cursor:pointer;
+    margin:10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+
+#Indicator{
+    width: 100px;
+    border: none;
+    background:grey;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+
+}
