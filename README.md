@@ -1,4 +1,5 @@
-# Ringover-Kicksup-Internship-
+Ecommerce Sneaker startup
+
 This is an website model created with HTML CSS and some javascript. MySQL code is used to create a database with tables to store user account details and the products they purchased: Connection to the database from  website can be made using a server-side scripting language like PHP or a database access layer like PDO.
 As per the Assets provided I have tried to create the same website.
 The index page(home page ) appears to be blank as much info was not provided about it.
